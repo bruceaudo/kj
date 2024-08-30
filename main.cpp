@@ -53,6 +53,7 @@ int main(int argc, char *argv[])
         {
             throw std::runtime_error("Error: Invalid operation.");
         }
+        
 
         // Perform the chosen operation
         std::cout << "> " << performOperation(op1, op2) << std::endl;
